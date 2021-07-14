@@ -1,0 +1,27 @@
+.results {
+  margin: 1% auto;
+}
+.score,
+.choices {
+  max-width: 60vw;
+  margin: 4% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.score h5,
+.choices h5 {
+  padding: 1% 2%;
+  font-size: medium;
+  color: #1d1d1d;
+  font-weight: bold;
+  flex-basis: 50%;
+}
+.score .user,
+.choices .user {
+  text-align: left;
+}
+.score .bot,
+.choices .bot {
+  text-align: right;
+}
